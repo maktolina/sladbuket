@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter Bold';
+    background-image: url(Background.jpg);
+    color: Ivory;
+    background-size: 101% auto;
+}
+.Fon{
+    margin: 3% 5% 5%;
+    background-color: Ivory;
+    border-radius: 30px;
+    color: Black;
+}
+.about_container{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+.about_container p{
+    font-size: 28px;
+}
+@media (max-width: 700px) {
+    .about_container{
+        grid-template-columns: 1fr;
+        padding: 7%;
+        padding-bottom: 48px;
+    }
+    body {
+        background-size: auto 101%;
+    }
+}
